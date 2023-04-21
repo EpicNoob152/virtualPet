@@ -46,5 +46,6 @@ public class VirtualPetSimulator {
         }else {
             System.out.println(pet.getName() + " became sad and needs some love.");
         }
+        scanner.close();
     }
 }

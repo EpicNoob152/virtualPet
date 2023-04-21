@@ -1,3 +1,9 @@
+/**
+ * class: VirtualPetSimulator
+ * ITEC 2140
+ *
+ */
+
 import java.util.Scanner; //you did not include this.
 public class VirtualPetSimulator {
     public static void main(String[] args) {

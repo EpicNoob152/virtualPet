@@ -1,4 +1,4 @@
-
+import java.util.Scanner; //you did not include this.
 public class VirtualPetSimulator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

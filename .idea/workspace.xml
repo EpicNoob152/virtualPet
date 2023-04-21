@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cabf7fdf-6569-4cfc-a1be-b63819573967" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PetActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PetNeeds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VirtualPet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VirtualPetProject.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VirtualPetSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtualPet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PetNeeds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PetNeeds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VirtualPet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VirtualPet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VirtualPetSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VirtualPetSimulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +37,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -62,7 +54,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682001243634</updated>
+      <workItem from="1682035470459" duration="438000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

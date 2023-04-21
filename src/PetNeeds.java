@@ -1,11 +1,11 @@
 public class PetNeeds {
     private int hunger;
-    private int thrist;
+    private int thurst;
     private int happiness;
 
     public PetNeeds() {
         hunger = 50;
-        thrist = 50;
+        thurst = 50;
         happiness = 50;
 
     }
@@ -17,11 +17,11 @@ public class PetNeeds {
         }
 
     }
-    public void decreaseThrist(int amount){
-        thrist -= amount;
+    public void decreaseThurst(int amount){
+        thurst -= amount;
 
-        if(thrist < 0){
-            thrist = 0;
+        if(thurst < 0){
+            thurst = 0;
         }
 
     }
@@ -40,7 +40,22 @@ public class PetNeeds {
         this.happiness = happiness;
     }
     public void setThrist(int thrist){
-        this.thrist = thrist;
+        this.thurst = thrist;
+    }
+
+    //you did not include getters for all attributes.
+
+
+    public int getHunger() {
+        return hunger;
+    }
+
+    public int getThurst() {
+        return thurst;
+    }
+
+    public int getHappiness() {
+        return happiness;
     }
 }
 

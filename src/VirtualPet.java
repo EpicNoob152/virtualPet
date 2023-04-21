@@ -14,16 +14,17 @@ public class VirtualPet {
 
     }
     public void feed(){
-        int decreaseHunger =  getRandomNumber(10, 20);
+        int decreaseAmount =  getRandomNumber(10, 20);
+
         petNeeds.decreaseHunger(decreaseAmount);
     }
     public void drink(){
-        int decreasethrist =  getRandomNumber(10, 20);
-        petNeeds.decreaseThrist(decreaseAmount);
+        int decreaseAmount =  getRandomNumber(10, 20); //check spelling
+        petNeeds.decreaseThurst(decreaseAmount); //check spelling
     }
     public void play(){
-        int increasehappiness =  getRandomNumber(10, 20);
-        petNeeds.increaseHappiness(decreaseAmount);
+        int increaseAmount =  getRandomNumber(10, 20);
+        petNeeds.increaseHappiness(increaseAmount);
     }
 public boolean isSick(){
         return petNeeds.getHunger() >=100|| petNeeds.getThurst() >=100;
@@ -34,9 +35,9 @@ public boolean isSad() {return petNeeds.getHappiness() <= 0;}
     public void printStatus(){
         System.out.println(name);
         System.out.println(age);
-        System.out.println("Hunger: " + petneeds.getHunger() + "/100");
-        System.out.println("Thirst: " + petneeds.getThirst() + "/100");
-        System.out.println("Happiness: " + petneeds.getHappiness() + "/100");
+        System.out.println("Hunger: " + petNeeds.getHunger() + "/100");
+        System.out.println("Thirst: " + petNeeds.getThurst() + "/100");
+        System.out.println("Happiness: " + petNeeds.getHappiness() + "/100");
         System.out.println();
     }
     public String getName(){
@@ -48,7 +49,7 @@ public boolean isSad() {return petNeeds.getHappiness() <= 0;}
     }
 
     public PetNeeds getPetNeeds(){
-        return petneeds;
+        return petNeeds;
     }
 
 }

@@ -1,3 +1,6 @@
+/**
+add comment regarding this class. 
+*/
 public class PetNeeds {
     private int hunger;
     private int thurst;
